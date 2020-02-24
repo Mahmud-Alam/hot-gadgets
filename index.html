@@ -3,9 +3,266 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hot Gadgets</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     
+      <div class=" menu collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#smartphone">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-us">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#smartphone">Smartphone</a>
+              <a class="dropdown-item" href="#laptop">Laptop</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#categories">Categories</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+
+
+
+
+
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide orange-bg" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner carousel-top">
+              <div class="carousel-item active">
+                  <div class="row align-items-center justify-content-center">
+                      <div class="col-md-6">
+                          <div class="carousel-text">
+                            <h2>Mackbook pro</h2>
+                            <p>Our most powerful notebooks featuring fast processors, incredible graphics, Touch Bar, and a spectacular Retina display.</p>
+                            <button class="buy-now-button">Buy Now</button>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                        <img class="d-block w-100" src="images/banner-products/product-1.png" alt="First slide">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="row align-items-center justify-content-center">
+                      <div class="col-md-6">
+                          <div class="carousel-text">
+                              <h2>Google Home Smart Speaker</h2>
+                              <p>With your Google Home device, you can have your own personal assistant. With simple voice commands, you can get information about traffic, sports and many more info.</p>
+                              <button class="buy-now-button">Buy Now</button>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                        <img class="d-block w-100" src="images/banner-products/slider-1.png" alt="Second slide">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="row align-items-center justify-content-center">
+                      <div class="col-md-6">
+                          <div class="carousel-text">
+                            <h2>JBL Xtreme Portable Wireless Bluetooth Speaker</h2> 
+                            <p>Portable wireless speaker with rechargeable lithium-ion battery, Bluetooth connectivity, and built-in speakerphone.</p>
+                            <button class="buy-now-button">Buy Now</button>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                        <img class="d-block w-100" src="images/banner-products/slider-3.png" alt="Third slide">
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </div>
+
+
+      <div class="container" id="smartphone">
+        <div class="product-pad d-flex justify-content-between">
+            <div>
+              <h3 class="product-text">Smartphone</h3>
+            </div>
+            <div class="nav-item dropdown">
+              <a class=" see-all  nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                See All
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#smartphone">Samsung Galaxy Note5</a>
+                <a class="dropdown-item" href="#smartphone">Samsung Galaxy Note6</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">More</a>
+              </div>
+            </div>
+        </div>
+        <div class="card-deck text-center">
+            <div class="card">
+              <img class="card-img-top" src="images/phone/phone-2.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">iPhone 11 Pro</h5>
+                <p class="card-text">Apple iPhone 11 Pro smartphone. Announced Sep 2019. Features 5.8″ Super Retina XDR OLED display, Apple A13 Bionic chipset, 3046 mAh battery, 512 GB.</p>
+              </div>
+              <div class="card-footer justify-content-center">
+                  <h3>$999</h3>
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/phone/phone-3.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Samsung Galaxy Note10+</h5>
+                <p class="card-text">Galaxy Note10 and Note10+ offer next-level power that's like a computer, a gaming console, a film studio, and an intelligent pen, all in one device.</p>
+              </div>
+              <div class="card-footer">
+                  <h3 jus>$799</h3>
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/phone/phone-1.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Redmi Note 8 Pro</h5>
+                <p class="card-text">Xiaomi Redmi Note 8 Pro Android smartphone. Announced Aug 2019. Features 6.53″ IPS LCD display, Helio G90T chipset, 4500 mAh battery, 256 GB storage.</p>
+              </div>
+              <div class="card-footer">
+                  <h3>$699</h3>
+                  <button class="buy-now-button">Buy Now</button>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+
+
+     <div class="container" id="laptop">
+      <div class="product-pad d-flex justify-content-between">
+        <div>
+          <h3 class="product-text">Laptop</h3>
+        </div>
+        <div class="nav-item dropdown">
+          <a class=" see-all  nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            See All
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#laptop">Lenevo ideapad 320</a>
+            <a class="dropdown-item" href="#laptop">Lenevo ideapab 110</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">More</a>
+          </div>
+        </div>
+    </div>
+        <div class="card-deck text-center" id="laptop">
+            <div class="card">
+              <img class="card-img-top" src="images/laptop/product-1.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Asus VivoBook</h5>
+                <p class="card-text">ASUS VivoBook 17 X705UQ. Windows 10 Pro. ASUS VivoBook 15 X505BP. Windows 10 Pro; ASUS VivoBook 14 X405UQ. Windows 10 Pro.</p>
+              </div>
+              <div class="card-footer ">
+                  <h3>$999</h3>
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/laptop/product-2.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Razer Blade 15</h5>
+                <p class="card-text">The Razer Blade gaming laptop is available in two tiers base and advanced model. The Base Model features a Full HD display up to 144Hz.</p>
+              </div>
+              <div class="card-footer">
+                  <h3>2799$</h3>
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/laptop/product-3.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
+                <p class="card-text">Xiaomi Mi Notebook Air laptop an Windows OS. Specs: 13.3 or 12.5 inches, Xiaomi Mi Notebook Pro 15.6″ i5 8GB/256GB Gray.</p>
+              </div>
+              <div class="card-footer">
+                  <h3>$999</h3>
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+      <div class="gap container" id="categories">
+        <h2 class="text-center product-text">Categories <hr></h2>
+        <div class="row text-center justify-content-center align-items-center">
+            <div class="col-md-3">
+              <div class="cat-box cat-box1">
+                <img src="images/Categories/bag.png" alt="">
+                <h5>Bag</h5>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="cat-box cat-box2 subcat-box">
+                <img src="images/Categories/perfume.png" alt="">
+                <h5>Beauty</h5>
+              </div>
+              <div class="cat-box cat-box2">
+                <img src="images/Categories/shoe.png" alt="">
+                <h5>Shoes</h5>
+              </div>
+            </div>
+          <div class="col-md-6">
+            <div class="order-bg">
+              <img src="images/Categories/pale-order.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <footer><small>©2020 Hot Gadgets. All rights reserved.</small> </footer>
+
+     
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,124 @@
+.menu{
+    padding-left: 200px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.btn:hover{
+    background-color:#fceae8 ;
+    border:none;
+    color: black;
+}
+.carousel-top{
+    margin: 100px 0 100px;
+}
+
+.orange-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.carousel-text{
+    margin-left: 20%;
+}
+.carousel-item{
+    padding: 10px 20px 30px;
+}
+.carousel-indicators li{
+    background-color: lightgray;
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+}
+.carousel-indicators .active{
+    width: 25px;
+    background-color: orange;
+    
+}
+.price{
+    color: black;
+}
+.buy-now-button{
+    background-color: black; 
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+.product-pad{
+    padding: 20px 0px;
+}
+.product-text{
+    font-size: 30px;
+}
+.see-all{
+    color: orange;
+}
+
+.card{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px gray;
+}
+.card-text{
+    text-align: justify;
+    padding: 10px;
+}
+.card img{
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+.card-footer{
+    border: none;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-deck{
+    margin-bottom: 50px;
+}
+
+.order-bg img{
+    width: 110%;
+}
+
+.cat-box {
+    border: none;
+    box-shadow: 0px 0px 30px lightgray;
+    padding: 50px 0px;
+}
+.cat-box1{
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 10px;
+}
+.cat-box2{
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 10px;
+}
+.cat-box h5 {
+    margin-top: 20px;
+}
+.subcat-box{
+    margin-bottom: 40px;
+}
+.gap{
+    margin-top: 100px;
+}
+hr{
+    width: 100px;
+    height: 5px;
+    background-color:  orange;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
